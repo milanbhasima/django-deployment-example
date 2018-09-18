@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% load my_extra %}
+{% block body_block%}
+<div class="jumbotron">
+	<h1>This is a index page</h1>
+	<h2>welcome to index page..</h2>
+	<h3>{{text|chait:'HELLO'}}</h3>
+	<h3>{{text|small}}</h3>
+	<h3>{{num|add:'23434'}}</h3>
+</div>
+{% endblock %}
